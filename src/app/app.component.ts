@@ -31,5 +31,7 @@ export class AppComponent{
   
   dateString = this.months.find(i => i.id === this.currentMonth)?.name + ' ' + this.currentDate.getFullYear();
 
+  currentYear = this.currentDate.getFullYear();
+
   title = 'CervejoApp';
 }
