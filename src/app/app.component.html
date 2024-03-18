@@ -1,5 +1,5 @@
-<img src="assets/images/TRANSICAO.gif" class="h-screen w-full absolute z-10" id="preload"/>
-
+<img src="assets/images/TRANSICAO_LG.gif" class="h-screen w-full absolute z-10 hidden md:lg:block" id="preload"/>
+<img src="assets/images/TRANSICAO.gif" class="h-screen w-full absolute z-10 block md:lg:hidden" id="preload_mb"/>
 <div 
     class="h-lvh bg-cover bg-center bg-no-repeat"
     style="background-image: url('assets/images/BG.png');" id="header">
@@ -9,7 +9,7 @@
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
           </a>
           <div class="text-3xl" style="color: white;">
-            <p>Março 2024</p>
+            <p>{{ dateString }}</p>
           </div>
         </div>
       </nav>
@@ -32,3 +32,20 @@
       </div>
     </div>
 </div>
+<footer class="bg-white mb-6">
+  <img src="assets/images/footerGIF.gif" class="h-1/2"/>
+  <div class="w-full max-w-screen-xl mx-auto">
+      <div class="text-center">
+          <p class="text-gray-400">O cantim das opniões</p>
+          <p class="text-gray-400">sobre as <span class="text-gray-400"><b>cervejas!</b></span></p>
+      </div>
+      <hr class="my-6 mx-auto" />
+      <div class="text-gray-400 text-center mb-4">
+        <a href="https://www.instagram.com/cervejo_br" class="mx-2" title="Instagram"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+        <a href="https://www.threads.net/@cervejo_br" class="mx-2" title="Threads"><i class="fa-brands fa-square-threads fa-lg"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61557278581065&locale=pt_BR" class="mx-2" title="Facebook"><i class="fa-brands fa-facebook fa-lg"></i></a>
+        <a href="https://twitter.com/cervejo_br" class="mx-2" title="X"><i class="fa-brands fa-square-x-twitter fa-lg"></i></a>  
+      </div>
+      <span class="block text-gray-400 text-center text-sm">© 2023 Cervejô. Todos os direitos reservados.</span>
+  </div>
+</footer>

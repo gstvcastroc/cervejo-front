@@ -1,12 +1,3 @@
-@font-face {
-    font-family: Lobster;
-    src: url(/src/assets/fonts/Lobster_1_4.woff);
-}
-
-p{
-    font-family: Lobster !important;
-}
-
 .centered {
     position: absolute;
     top: 50%;
